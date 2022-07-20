@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*  Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    color: #0088a9;
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    
+        font-weight: 500;
+        font-size: 16px;
+        color: #edf0f1;
+        text-decoration: none;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+}
+.btn-contact {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.btn-contact:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Main */
+.main{
+    display: flex;
+}
+/* ITMS */
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shop-item{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin: 20px;
+}
+h5{
+    color: teal;
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+p{
+    margin-bottom: 1rem;
+}
+.shop-item img{
+    height: 200px;
+    width:200px;
+}
+.shop-item-price{
+    color: rgb(128, 128, 128);
+      font-size: 22px;
+}
+.shop-item-details{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-item-prices{
+    font-weight: 400;
+    overflow: hidden;
+}
+.cart-total-price{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
